@@ -1,0 +1,15 @@
+.container{
+    display: flex ;
+    justify-content: space-between;
+}
+.item{
+    order: 1;
+}
+div{
+    width: 100px;
+    color: red;
+}
+div div{
+    flex-direction: column ;
+    color: blue;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>blok 1</div>
+        <div style="width: 100px; height: 100px">blok 2</div>
+    </div>
+
+    <div class="container direction" class="item">
+        <div >
+            <div>blok 1</div>
+            <div>blok 2</div>
+            <div>blok 3</div>
+        </div>
+    </div>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .item {
+            order: initial;
+        }
+
+        .direction{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        
+    </style>
+</body>
+
+</html>
