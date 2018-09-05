@@ -9,36 +9,46 @@
 </head>
 
 <body>
-    <div class="container direction">
-
-        <div >
-            <div style="height: 30%; color: red">
-                sdsdsds
-            </div>
-
-            <div>
-                dsfgsdgdfghfdhfdg
-            </div>
+    <div class="container">
+        
+        <div class="center">
+            dsdsffsfdsfsdsdsfdfdsfdsfdsfdsfdsfdsfds
+                <div class="bug">
+                    fefdwefrewffweffewfwefwefwfwfwefwfwfw
+                </div>
         </div>
-
-        <div style="width: 40%; height: 30%; color: blue; background-color:green;" >
-            fsdfdsds
+        <div class="content">
+            fefdfefwefwe
         </div>
+        
+        
     </div>
 
     <style>
         .container {
+            display: block;
+        }
+
+        .center {
+            background: red;
+            height: 300px;
+        }
+
+        .bug {
+            background: green;
+            height: 500px;
+            width: 500px;
             flex-direction: column;
-            justify-content: space-around;
+            text-align: center;
+            margin: 200px 100px 100px 200px;
+            display: inline-flex;
+            box-shadow: 10px 10px 60px 80px gold;
         }
 
-        .item {
-            order: initial;
-        }
+        .content {
+            background: blue;
+            height: 800px;
 
-        .direction {
-            align-content: center;
-            justify-content: center;
         }
     </style>
 </body>
